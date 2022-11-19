@@ -1,0 +1,337 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700;800;900&display=swap");
+body {
+  background: linear-gradient(124.06deg, #ecfefa 9.47%, #bee9ff 29.35%, #dbeaff 60.79%, #f3dbff 85.49%) !important;
+  background-color: none !important;
+  padding: 0;
+  margin: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.navbar {
+  padding-top: 1.8rem;
+}
+
+.navbar .container .logo a {
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 25px;
+  line-height: 30px;
+  letter-spacing: 0.02em;
+  color: #000000;
+}
+
+.navbar .container .logo a .imgLogo {
+  width: 85px;
+  height: 85px;
+}
+
+.navbar .container .collapse ul li a {
+  padding-top: 0rem !important;
+  padding-bottom: 2rem;
+  padding-right: 0rem !important;
+  margin-right: 1rem;
+  font-family: "Montserrat", sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 13.5272px;
+  line-height: 16px;
+  letter-spacing: 0.02em;
+  color: #000000;
+}
+
+header .row .col-12 {
+  padding-top: 100px;
+}
+
+header .row .col-12 .text-start h2 {
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 47px !important;
+  line-height: 65px;
+  letter-spacing: 0.02em;
+  color: #000000;
+}
+
+header .row .col-12 .text-start p {
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 21px;
+  line-height: 29px;
+  letter-spacing: 0.02em;
+  color: #000000;
+  margin-bottom: 44px;
+}
+
+header .row .col-12 .text-start .btn01 {
+  width: 234px;
+  height: 65px;
+  background: #00445b;
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 17px;
+  letter-spacing: 0.02em;
+  color: #ffffff;
+  border-radius: 0;
+  -webkit-transition: all 0.8s transparent;
+  transition: all 0.8s transparent;
+}
+
+header .row .col-12 .text-start .btn01:hover {
+  background: #ecfefa;
+  border: 1px solid #000000;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  color: #111111;
+}
+
+header .row .col-12 .text-start .modal-header {
+  background: #00445b;
+  border-radius: 0;
+}
+
+header .row .col-12 .text-start .modal-header .btn-close {
+  padding-top: 0rem;
+  margin-bottom: 3rem;
+  background: none !important;
+}
+
+header .row .col-12 .text-start .modal-header .modal-img {
+  width: 70px;
+  height: 70px;
+  margin-left: 120px;
+}
+
+header .row .col-12 .text-start .modal-body {
+  background-color: #ecfefa;
+}
+
+header .row .col-12 .text-start .modal-body h2 {
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 43px;
+  line-height: 52px;
+  letter-spacing: 0.02em;
+  color: #000000;
+}
+
+header .row .col-12 .text-start .modal-body .btn02 {
+  width: 184px;
+  height: 55px;
+  background: #00445b;
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 17px;
+  letter-spacing: 0.02em;
+  color: #ffffff;
+  border-radius: 0;
+  -webkit-transition: all 0.8s transparent;
+  transition: all 0.8s transparent;
+}
+
+header .row .col-12 .text-start .modal-body .btn02:hover {
+  background: #ecfefa;
+  border: 1px solid #000000;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  color: #111111;
+}
+
+header .row .col12 .imgMan {
+  width: 407px;
+  height: 578px;
+  max-width: 100%;
+  -webkit-transform: matrix(1, 0, 0, 1, 0, 0);
+          transform: matrix(1, 0, 0, 1, 0, 0);
+}
+
+header .row .col12 .absol {
+  position: absolute;
+  width: 250px;
+  height: 135px;
+  left: 855px !important;
+  top: 640px;
+  background: #c7eaff;
+  -webkit-filter: blur(20px);
+          filter: blur(20px);
+}
+
+@media screen and (max-width: 974px) {
+  .navbar .container .logo a {
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 25px;
+    line-height: 30px;
+    letter-spacing: 0.02em;
+    color: #000000;
+  }
+  .navbar .container .logo a .imgLogo {
+    width: 85px;
+    height: 85px;
+  }
+  .navbar .container .collapse {
+    display: inline-block;
+    -webkit-box-pack: none !important;
+        -ms-flex-pack: none !important;
+            justify-content: none !important;
+  }
+  .navbar .container .collapse ul li a {
+    padding-bottom: 0rem;
+    margin-right: 1rem;
+    font-family: "Montserrat", sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 13.5272px;
+    line-height: 16px;
+    letter-spacing: 0.02em;
+    color: #000000;
+  }
+  .container .row .text-start h2 {
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 38px;
+    line-height: 65px;
+    letter-spacing: 0.02em;
+    color: #000000;
+  }
+}
+
+.teams .carousel .card {
+  background: #222;
+  border-radius: 6px;
+  padding: 25px 35px;
+  text-align: center;
+  -webkit-transition: all 0.3s ease;
+  transition: all 0.3s ease;
+}
+
+.teams .carousel .card:hover {
+  background: #00445b;
+}
+
+.teams .carousel .card .box {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-transition: all 0.3s ease;
+  transition: all 0.3s ease;
+}
+
+.teams .carousel .card:hover .box {
+  -webkit-transform: scale(1.05);
+          transform: scale(1.05);
+}
+
+.teams .carousel .card .text {
+  font-size: 25px;
+  font-weight: 500;
+  margin: 10px 0 7px 0;
+}
+
+.teams .carousel .card img {
+  height: 150px;
+  width: 150px;
+  -o-object-fit: cover;
+     object-fit: cover;
+  border-radius: 50%;
+  border: 5px solid #00445b;
+  -webkit-transition: all 0.3s ease;
+  transition: all 0.3s ease;
+}
+
+.teams .carousel .card:hover img {
+  border-color: #fff;
+}
+
+.owl-dots {
+  text-align: center;
+  margin-top: 20px;
+}
+
+.owl-dot {
+  height: 4px;
+  width: 35px;
+  margin: 0 5px;
+  outline: none !important;
+  border-radius: 14px;
+  border: 2px solid #646464 !important;
+  -webkit-transition: all 0.3s ease;
+  transition: all 0.3s ease;
+}
+
+.owl-dot.active {
+  width: 35px;
+  border-radius: 14px;
+  border: none !important;
+  background-color: #00445b !important;
+}
+
+.owl-item {
+  width: 425px !important;
+  margin-right: 0 !important;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+.Kurslar .carousel .card {
+  width: 20rem !important;
+  border-radius: none !important;
+}
+
+.Kurslar .carousel .card .btnKurs {
+  border-radius: 0 !important;
+  width: 100%;
+  height: 46px;
+  background: #00445b;
+  color: #fff;
+}
+
+.Kurslar .carousel .card .btnKurs:hover {
+  background: #ecfefa;
+  border: 1px solid #000000;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  color: #111111;
+}
+
+.swiper-slide {
+  background: none !important;
+}
+
+.swiper-pagination-bullet {
+  width: 30px !important;
+  height: 4px !important;
+  border-radius: 0 !important;
+  background-color: #00445b !important;
+}
+
+@media screen and (min-width: 750px) and (max-width: 974px) {
+  header .row .col12 .div {
+    width: 300px !important;
+    height: 378px !important;
+  }
+}
+/*# sourceMappingURL=main.css.map */
